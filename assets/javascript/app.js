@@ -40,7 +40,7 @@ function removeLastButton(){
 // Displays all of the gifs
 function displayGifs(){
     var artist = $(this).attr("data-name");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + artist + "&api_key=dc6zaTOxFJmzC&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + artist + "&api_key=dc6zaTOxFJmzC&limit=10";
     console.log(queryURL); 
 // displays the url with the added artist in the console
     $.ajax({
