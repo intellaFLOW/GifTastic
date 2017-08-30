@@ -1,0 +1,41 @@
+body{
+	background: url("../images/background.jpg");
+	background-size: 100%;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+}
+img { 
+    height: 200px;
+    width: 200px;
+}
+.btn {
+    margin: 5px;
+    background-color: #9900ff;
+    border-color: white;
+}
+.gifsView,.gifDiv{
+    margin: 0 auto;
+    padding: 2px;
+}
+.container {
+	border-color: white;
+	text-align: center;
+}
+.header {
+    background-color: #9900ff;
+
+}
+.header .h1, .header h1 {
+    text-align: center;
+}
+.p{
+	text-align: center;
+	font-size: 14pt;
+}
+#artist-input{
+	color:#9900ff;
+}
+#addGif, #removeGif{
+	background-color: white;
+	color:#9900ff;
+}

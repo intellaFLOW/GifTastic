@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<!-- Header -->
+<head>
+    <title>Musical GIFs</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <div class="header"><h1>Musical GIFs</h1></div>
+        </div>    
+        <div class="col-sm-3"></div>  
+    </div>
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            <div class="p">
+                <ul>All populated GIFs may not be associated with the artist, please pick and choose the ones you prefer!</ul>
+                <ul>All GIFs have been set to reproduce at 200px x 200px.  Please note that the original images may not be this size.</ul>
+            </div>
+        </div>    
+        <div class="col-sm-4"></div>  
+    </div>    
+<!-- Buttons  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6"><div id="gifButtonsView"></div></div>
+            <div class="col-sm-3"></div>
+        </div>    
+    </div>
+<!-- Main Container  -->
+    <div class="container">
+        <div class="row">
+<!-- Submit Artist  -->
+            <form id="gif-form" role="form">
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6">
+                        <h2>Artist Submission</h2>
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-4">
+                        <label for="artist-input">Add your favorite artist here!</label>
+                        <input type="text" id="artist-input">
+                    </div>
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 col-sm-offset-2">
+                    <input id="addGif" type="submit" value="Add Your Musician Here" class="btn btn-primary">
+                    <input id="removeGif" type="submit" value="Remove Your Added Musicians" class="btn btn-primary">
+                </div>
+            </form>    
+        </div>
+<!-- Gifs  -->
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6"><div id="gifsView"></div></div>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
